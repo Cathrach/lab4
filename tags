@@ -1,0 +1,106 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+bad_el	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^let bad_el = IntListStack.top (invert_stack (small_stack ()));;$/;"	v	language:OCaml
+best_fib	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^let best_fib = Fibonacci.eval 7$/;"	v	language:OCaml
+cons	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let cons t h = h::t$/;"	v	language:OCaml	Module:Queue
+cos	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    let cos = Pervasives.cos$/;"	v	language:OCaml	Module:Math
+cos	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    val cos : float -> float$/;"	v	language:OCaml	Module:MATH
+dequeue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let dequeue (q : 'a queue) : 'a queue =$/;"	v	language:OCaml	Module:Queue
+dequeue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    val dequeue : 'a queue -> 'a queue$/;"	v	language:OCaml	Module:QUEUE
+dequeue_helper	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let dequeue_helper (q : 'a queue) : ('a * 'a queue) =$/;"	v	language:OCaml	Module:Queue
+element	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type element = Element.t$/;"	t	language:OCaml	Module:MakeStack
+element	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type element$/;"	t	language:OCaml	Module:STACK
+empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    let empty () : stack = []$/;"	v	language:OCaml	Module:IntListStack
+empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    val empty : unit -> stack$/;"	v	language:OCaml	Module:INT_STACK
+empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let empty () : 'a queue = [], []$/;"	v	language:OCaml	Module:Queue
+empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    val empty : unit -> 'a queue$/;"	v	language:OCaml	Module:QUEUE
+Empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    exception Empty$/;"	e	language:OCaml	Module:MakeStack
+Empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    exception Empty$/;"	e	language:OCaml	Module:STACK
+empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let empty () : stack = []$/;"	v	language:OCaml	Module:MakeStack
+empty	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val empty : unit -> stack$/;"	v	language:OCaml	Module:STACK
+EmptyQueue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    exception EmptyQueue$/;"	e	language:OCaml	Module:QUEUE
+EmptyQueue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    exception EmptyQueue$/;"	e	language:OCaml	Module:Queue
+EmptyStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    exception EmptyStack$/;"	e	language:OCaml	Module:IntListStack
+EmptyStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    exception EmptyStack$/;"	e	language:OCaml	Module:INT_STACK
+enqueue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let enqueue (el : 'a) (q : 'a queue) =$/;"	v	language:OCaml	Module:Queue
+enqueue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    val enqueue : 'a -> 'a queue -> 'a queue$/;"	v	language:OCaml	Module:QUEUE
+exists	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    val exists : int -> bool$/;"	v	language:OCaml	Module:Sequence
+filter	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let filter (f: element -> bool) (s: stack) : stack =$/;"	v	language:OCaml	Module:MakeStack
+filter	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val filter : (element -> bool) -> stack -> stack$/;"	v	language:OCaml	Module:STACK
+Finite	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length = Infinite | Finite of int$/;"	C	language:OCaml	type:Sequence/length
+fold_left	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let fold_left (f: 'a -> element -> 'a) (init: 'a) (s: stack) : 'a =$/;"	v	language:OCaml	Module:MakeStack
+fold_left	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val fold_left : ('a -> element -> 'a) -> 'a -> stack -> 'a$/;"	v	language:OCaml	Module:STACK
+front	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let front (q: 'a queue) : 'a =$/;"	v	language:OCaml	Module:Queue
+front	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    val front : 'a queue -> 'a$/;"	v	language:OCaml	Module:QUEUE
+Infinite	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length = Infinite | Finite of int$/;"	C	language:OCaml	type:Sequence/length
+info	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type info$/;"	t	language:OCaml	Module:Sequence
+info	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    val info : info$/;"	v	language:OCaml	Module:Sequence
+IntListStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^module IntListStack =$/;"	M	language:OCaml
+IntSerial	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module IntSerial : SERIALIZE =$/;"	M	language:OCaml
+IntStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module IntStack = MakeStack(IntSerial) ;;$/;"	M	language:OCaml
+IntStringSerial	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module IntStringSerial : SERIALIZE =$/;"	M	language:OCaml
+IntStringStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module IntStringStack = MakeStack(IntStringSerial);;$/;"	M	language:OCaml
+INT_STACK	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^module type INT_STACK =$/;"	M	language:OCaml
+invert_stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^let invert_stack (s : IntListStack.stack) : IntListStack.stack =$/;"	v	language:OCaml
+Lab4_part1	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^(*$/;"	M	language:OCaml
+Lab4_part2	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^(*$/;"	M	language:OCaml
+Lab4_part3	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^(*$/;"	M	language:OCaml
+Lab4_part4	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^(*$/;"	M	language:OCaml
+Lab4_part5	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^(*$/;"	M	language:OCaml
+last_class	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^let last_class = Studyplan.eval length$/;"	v	language:OCaml
+last_el	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^let last_el = IntListStack.top (small_stack ())$/;"	v	language:OCaml
+length	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length = Infinite | Finite of int$/;"	t	language:OCaml	Module:Sequence
+length	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^let length =$/;"	v	language:OCaml
+MakeStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module MakeStack (Element: SERIALIZE) : (STACK with type element = Element.t) =$/;"	M	language:OCaml
+map	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let map (f: element -> element) (s: stack) : stack =$/;"	v	language:OCaml	Module:MakeStack
+map	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val map : (element -> element) -> stack -> stack$/;"	v	language:OCaml	Module:STACK
+Math	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^module Math : MATH =$/;"	M	language:OCaml
+MATH	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^module type MATH =$/;"	M	language:OCaml
+max	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    let max lst =$/;"	v	language:OCaml	Module:Math
+max	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    val max : float list -> float option$/;"	v	language:OCaml	Module:MATH
+pi	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    let pi = 4. *. Pervasives.atan 1.$/;"	v	language:OCaml	Module:Math
+pi	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    val pi : float$/;"	v	language:OCaml	Module:MATH
+pop	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    let pop (s : stack) : stack =$/;"	v	language:OCaml	Module:IntListStack
+pop	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    val pop : stack -> stack$/;"	v	language:OCaml	Module:INT_STACK
+pop	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let pop (s: stack) : stack = snd (pop_helper s)$/;"	v	language:OCaml	Module:MakeStack
+pop	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val pop : stack -> stack$/;"	v	language:OCaml	Module:STACK
+pop_helper	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let pop_helper (s: stack) : (element * stack) =$/;"	v	language:OCaml	Module:MakeStack
+push	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    let push (i : int) (s : stack) : stack = i::s$/;"	v	language:OCaml	Module:IntListStack
+push	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    val push : int -> stack -> stack$/;"	v	language:OCaml	Module:INT_STACK
+push	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let push (el: element) (s: stack) : stack = el::s$/;"	v	language:OCaml	Module:MakeStack
+push	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val push : element -> stack -> stack$/;"	v	language:OCaml	Module:STACK
+q	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^let q = fun () ->$/;"	v	language:OCaml
+queue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    type 'a queue = ('a list) * ('a list)     (* replace this with the correct $/;"	t	language:OCaml	Module:Queue
+queue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    type 'a queue$/;"	t	language:OCaml	Module:QUEUE
+Queue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^module Queue : QUEUE =$/;"	M	language:OCaml
+QUEUE	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^module type QUEUE =$/;"	M	language:OCaml
+result	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^let result = Math.max [Math.cos Math.pi; Math.sin Math.pi]$/;"	v	language:OCaml
+result_local_open	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^let result_local_open = max [cos pi; sin pi]$/;"	v	language:OCaml
+SafeIntListStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^module SafeIntListStack = (IntListStack : INT_STACK) ;;$/;"	M	language:OCaml
+safe_stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^let safe_stack () =$/;"	v	language:OCaml
+Sequence	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^module type Sequence =$/;"	M	language:OCaml
+SequenceFibonacci	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^module SequenceFibonacci = (Fibonacci : Sequence) ;;$/;"	M	language:OCaml
+SequenceInverse	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^module SequenceInverse = (Fibonacci : Sequence) ;;$/;"	M	language:OCaml
+SequenceStudyplan	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^module SequenceStudyplan = (Fibonacci : Sequence) ;;$/;"	M	language:OCaml
+serialize	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let serialize (i : t) = string_of_int i$/;"	v	language:OCaml	Module:IntSerial
+serialize	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let serialize (i, s) =$/;"	v	language:OCaml	Module:IntStringSerial
+serialize	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let serialize (s: stack) : string =$/;"	v	language:OCaml	Module:MakeStack
+serialize	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val serialize : stack -> string$/;"	v	language:OCaml	Module:STACK
+serialize	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val serialize : t -> string$/;"	v	language:OCaml	Module:SERIALIZE
+SERIALIZE	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module type SERIALIZE =$/;"	M	language:OCaml
+sin	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    let sin = Pervasives.sin$/;"	v	language:OCaml	Module:Math
+sin	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    val sin : float -> float$/;"	v	language:OCaml	Module:MATH
+small_stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^let small_stack () : IntListStack.stack =$/;"	v	language:OCaml
+stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    type stack = int list$/;"	t	language:OCaml	Module:IntListStack
+stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    type stack$/;"	t	language:OCaml	Module:INT_STACK
+stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type stack = element list$/;"	t	language:OCaml	Module:MakeStack
+stack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type stack$/;"	t	language:OCaml	Module:STACK
+STACK	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module type STACK =$/;"	M	language:OCaml
+sum	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    let sum = ( +. )$/;"	v	language:OCaml	Module:Math
+sum	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part1.ml	/^    val sum : float -> float -> float$/;"	v	language:OCaml	Module:MATH
+t	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type t = int * string$/;"	t	language:OCaml	Module:IntStringSerial
+t	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type t = int$/;"	t	language:OCaml	Module:IntSerial
+t	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    type t$/;"	t	language:OCaml	Module:SERIALIZE
+top	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    let top (s : stack) : int =$/;"	v	language:OCaml	Module:IntListStack
+top	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^    val top : stack -> int$/;"	v	language:OCaml	Module:INT_STACK
+top	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let top (s: stack) : element = fst (pop_helper s)$/;"	v	language:OCaml	Module:MakeStack
+top	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val top : stack -> element$/;"	v	language:OCaml	Module:STACK

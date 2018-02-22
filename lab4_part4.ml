@@ -40,7 +40,6 @@ includes a polymorphic abstract type so that we can generalize queues
 to be int queues, string queues, and so on. After the
 signature, we'll immediately dive into implementing the module.  
 ......................................................................*)
-
 module type QUEUE =
   sig
     exception EmptyQueue
@@ -75,19 +74,32 @@ module Queue : QUEUE =
   struct
     exception EmptyQueue
 
-    type 'a queue = 'a      (* replace this with the correct 
+    type 'a queue = ('a list) * ('a list)     (* replace this with the correct 
                                implementation type *)
 
-    let empty () : 'a queue =
-      failwith "not implemented"
+    let empty () : 'a queue = [], []
 
     let enqueue (el : 'a) (q : 'a queue) =
-      failwith "not implemented"
+      el::(fst q), (snd q)
+
+    let cons t h = h::t
 
     (* dequeue_helper q -- Returns a pair of the front element of the
        queue and a queue containing the remaining elements *)
     let dequeue_helper (q : 'a queue) : ('a * 'a queue) =
-      failwith "not implemented"
+      let q2 =
+        (match snd q with
+        | [] -> List.fold_left cons [] (fst q)
+        | _ -> snd q)
+      in
+      let q1 =
+        (match snd q with
+        | [] -> []
+        | _ -> fst q)
+      in
+      match q2 with
+      | [] -> raise EmptyQueue
+      | h::t -> (h, (q1, t))
 
     let front (q: 'a queue) : 'a =
       fst (dequeue_helper q)
@@ -115,7 +127,9 @@ your Queue module to return a new queue with the following strings
 enqueued in order: "Computer", "Science", "51".
 ......................................................................*)
 
-let q = fun _ -> failwith "not implemented" ;;
+let q = fun () ->
+  Queue.enqueue "51" (Queue.enqueue "Science" (Queue.enqueue "Computer"
+  (Queue.empty ())));;
 
 (*......................................................................
 Exercise 4C: Write an expression to generate a queue with the q
@@ -123,4 +137,4 @@ function, above, and pull the front element from it, naming the result
 front_el.
 ......................................................................*)
 
-let front_el = "replace me with an expression using the Queue module" ;;
+let front_el = Queue.front (q ());;
