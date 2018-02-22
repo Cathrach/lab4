@@ -26,12 +26,10 @@ enqueue	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    val enqueue
 exists	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    val exists : int -> bool$/;"	v	language:OCaml	Module:Sequence
 filter	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let filter (f: element -> bool) (s: stack) : stack =$/;"	v	language:OCaml	Module:MakeStack
 filter	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val filter : (element -> bool) -> stack -> stack$/;"	v	language:OCaml	Module:STACK
-Finite	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length = Infinite | Finite of int$/;"	C	language:OCaml	type:Sequence/length
 fold_left	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let fold_left (f: 'a -> element -> 'a) (init: 'a) (s: stack) : 'a =$/;"	v	language:OCaml	Module:MakeStack
 fold_left	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    val fold_left : ('a -> element -> 'a) -> 'a -> stack -> 'a$/;"	v	language:OCaml	Module:STACK
 front	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    let front (q: 'a queue) : 'a =$/;"	v	language:OCaml	Module:Queue
 front	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^    val front : 'a queue -> 'a$/;"	v	language:OCaml	Module:QUEUE
-Infinite	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length = Infinite | Finite of int$/;"	C	language:OCaml	type:Sequence/length
 info	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type info$/;"	t	language:OCaml	Module:Sequence
 info	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    val info : info$/;"	v	language:OCaml	Module:Sequence
 IntListStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^module IntListStack =$/;"	M	language:OCaml
@@ -48,7 +46,7 @@ Lab4_part4	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part4.ml	/^(*$/;"	M	lan
 Lab4_part5	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^(*$/;"	M	language:OCaml
 last_class	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^let last_class = Studyplan.eval length$/;"	v	language:OCaml
 last_el	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part3.ml	/^let last_el = IntListStack.top (small_stack ())$/;"	v	language:OCaml
-length	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length = Infinite | Finite of int$/;"	t	language:OCaml	Module:Sequence
+length	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^    type length$/;"	t	language:OCaml	Module:Sequence
 length	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part2.ml	/^let length =$/;"	v	language:OCaml
 MakeStack	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^module MakeStack (Element: SERIALIZE) : (STACK with type element = Element.t) =$/;"	M	language:OCaml
 map	/Users/serinahu/Documents/CS51/labs/lab4/lab4_part5.ml	/^    let map (f: element -> element) (s: stack) : stack =$/;"	v	language:OCaml	Module:MakeStack

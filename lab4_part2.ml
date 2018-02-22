@@ -112,7 +112,7 @@ functions that have the same name and type.
 (* Uncomment when ready! *)
 module type Sequence =
   sig
-    type length = Infinite | Finite of int
+    type length
     type info
     val info : info
     val exists : int -> bool
